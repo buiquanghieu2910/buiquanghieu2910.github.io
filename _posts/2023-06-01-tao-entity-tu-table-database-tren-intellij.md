@@ -2,8 +2,7 @@
 layout: post
 title: Hướng dẫn tạo Entity từ Table Database trên Intellij
 subtitle: Hướng dẫn tạo Entity từ Table Database trên Intellij sử dụng plugins JPA Buddy
-# gh-repo: daattali/beautiful-jekyll
-# gh-badge: [star, fork, follow]
+thumbnail-img: /assets/img/tao-entity-tu-table-database-tren-intellij/huong-dan-generate-entities-from-db-table-in-intellij.jpg
 tags: [Java, Spring JPA, Spring boot, JPA Buddy]
 comments: true
 ---
