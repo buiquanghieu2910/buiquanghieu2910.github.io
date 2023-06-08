@@ -1118,3 +1118,25 @@ pre {
     display: inline-block;
   }
 }
+
+#back-to-top-btn {
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  display: none;
+  background-color: #4d94d2;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  z-index: 9999; 
+}
+
+#back-to-top-btn:hover {
+  background-color: #1e4fa8;
+}
