@@ -1140,3 +1140,14 @@ pre {
 #back-to-top-btn:hover {
   background-color: #ebc44b;
 }
+
+.nav-link.dropdown-toggle a:hover {
+  background-color: #fbf6f1 !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  background-color: #FBF6F1 !important;
+}
