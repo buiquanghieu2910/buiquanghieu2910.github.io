@@ -1141,7 +1141,7 @@ pre {
   background-color: #ebc44b;
 }
 
-.nav-link.dropdown-toggle a:hover {
+.nav-link.dropdown-toggle:hover {
   background-color: #fbf6f1 !important;
 }
 
