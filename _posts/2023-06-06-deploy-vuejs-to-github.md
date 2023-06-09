@@ -87,7 +87,12 @@ Sau khi push thành công lên github, các bạn quay lại repository của c�
 
 ![Image](/assets/img/deploy-vue-to-github/deploy-vue-to-github-5.png)
 
-Cuối cùng là mở trình duyệt tại địa chỉ: https://<tên user github>.github.io/<tên repo>/ (ví dụ như của mình là https://buiquanghieu2910.github.io/deploy_vue_to_github). Và cuối cùng là xem kết quả
+Cuối cùng là mở trình duyệt tại địa chỉ:
+```
+https://<tên user github>.github.io/<tên repo>/
+```
+
+(ví dụ như của mình là https://buiquanghieu2910.github.io/deploy_vue_to_github). Và cuối cùng là xem kết quả
 
 |![Image](/assets/img/deploy-vue-to-github/deploy-vue-to-github-6.png)|
 |:--:|
