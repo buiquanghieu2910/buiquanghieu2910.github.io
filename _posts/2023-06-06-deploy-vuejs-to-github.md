@@ -11,9 +11,9 @@ comments: true
 
 <br/><br/>
 
-**http://Github.IO** là nơi chúng ta có thể hosting các project free trực tiếp từ các repository trên http://github.com. Ở **http://Github.io** các bạn có thể hosting các trang web như profile cá nhân, landing page, hay các trang giới thiệu sản phẩm/project,…
+**Github.IO** là nơi chúng ta có thể hosting các project free trực tiếp từ các repository trên github.com. Ở **Github.io** các bạn có thể hosting các trang web như profile cá nhân, landing page, hay các trang giới thiệu sản phẩm/project,…
 
-Hôm nay mình sẽ hướng dẫn các bạn cách **deploy VueJS project lên http://github.io**, nhờ đó các bạn có thể hosting project VueJS của mình một cách nhanh chóng và hoàn toàn miễn phí.
+Hôm nay mình sẽ hướng dẫn các bạn cách **deploy VueJS project lên github.io**, nhờ đó các bạn có thể hosting project VueJS của mình một cách nhanh chóng và hoàn toàn miễn phí.
 
 <br/>
 
