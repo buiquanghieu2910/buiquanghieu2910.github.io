@@ -8,34 +8,24 @@
 ### param "buttons" - Buttons, icon class you can find here https://ionicons.com/v4/
 
 main:
-  bgimage: "assets/img/bg.jpg"
-  photo: ""
-  name: "Ryan Adlard"
+  bgimage:
+    [
+      "assets/img/profile/bg-3.jpg",
+      "assets/img/profile/bg-1.jpeg",
+      "assets/img/profile/bg-2.jpg",
+    ]
+  photo: "assets/img/profile/avatar_hieubq.jpg"
+  name: "Bui Quang Hieu"
   typed:
-    - text: "Web Designer"
-    - text: "Blogger"
-    - text: "Freelancer"
-    - text: "Photographer"
+    - text: "Back-end Developer"
   social:
-    - title: "Dribbble"
-      icon: "fab fa-dribbble"
-      url: "https://dribbble.com/"
-    - title: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/"
     - title: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/"
-    - title: "Spotify"
-      icon: "fab fa-spotify"
-      url: "https://www.spotify.com/"
-    - title: "Stackoverflow"
-      icon: "fab fa-stack-overflow"
-      url: "https://stackoverflow.com/"
+      url: "https://github.com/buiquanghieu2910"
   buttons:
     - title: "Download CV"
-      icon: ""
-      url: "https://drive.google.com/"
-    - title: "Contact Me"
-      icon: ""
-      url: "mailto:beshleyua@gmail.com"
+      icon: "fa-regular fa-cloud-arrow-down"
+      url: "https://www.topcv.vn/xem-cv/VFZRAgJUBlNTA1BaUwpXUFQEVgIFBAcBXFkFUg074d"
+    - title: "Contact"
+      icon: "fa-regular fa-paper-plane"
+      url: "mailto:bui.quang.hieu2910@gmail.com"
