@@ -19,7 +19,7 @@ main:
       url: "https://github.com/buiquanghieu2910"
   buttons:
     - title: "Download CV"
-      icon: "paper-plane"
+      icon: "paper-airplane"
       url: "https://www.topcv.vn/xem-cv/VFZRAgJUBlNTA1BaUwpXUFQEVgIFBAcBXFkFUg074d"
     - title: "Contact"
       icon: "cloud-download"
