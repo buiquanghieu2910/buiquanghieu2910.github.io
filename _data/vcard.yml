@@ -8,12 +8,7 @@
 ### param "buttons" - Buttons, icon class you can find here https://ionicons.com/v4/
 
 main:
-  bgimage:
-    [
-      "assets/img/profile/bg-3.jpg",
-      "assets/img/profile/bg-1.jpeg",
-      "assets/img/profile/bg-2.jpg",
-    ]
+  bgimage: "assets/img/profile/bg-3.jpg"
   photo: "assets/img/profile/avatar_hieubq.jpg"
   name: "Bui Quang Hieu"
   typed:
@@ -24,8 +19,8 @@ main:
       url: "https://github.com/buiquanghieu2910"
   buttons:
     - title: "Download CV"
-      icon: "fa-regular fa-cloud-arrow-down"
+      icon: "paper-plane"
       url: "https://www.topcv.vn/xem-cv/VFZRAgJUBlNTA1BaUwpXUFQEVgIFBAcBXFkFUg074d"
     - title: "Contact"
-      icon: "fa-regular fa-paper-plane"
+      icon: "cloud-download"
       url: "mailto:bui.quang.hieu2910@gmail.com"
