@@ -1,32 +1,31 @@
 ---
-layout: default
+layout: base
 ---
 
-<!--
-	Card - Page
--->
-<div class="card-inner blog blog-post animated" id="blog-page">
-	<div class="card-wrap">
+{% include header.html type="page" %}
 
-		<!--
-			Page
-		-->
-		<div class="content blog-single">
+<div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}" role="main">
+  <div class="row">
+    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+      {% if page.before-content %}
+        <div class="before-content">
+          {% for file in page.before-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
 
-			<!-- title -->
-			<div class="title">{{ page.title }}</div>
+      {{ content }}
 
-			<!-- content -->
-			<div class="row border-line-v">
-				<div class="col col-m-12 col-t-12 col-d-12">
-					<div class="post-box">
-						{{ content }}
-					</div>
-				</div>
-			</div>
-			
-			
-		</div>
+      {% if page.after-content %}
+        <div class="after-content">
+          {% for file in page.after-content %}
+            {% include {{ file }} %}
+          {% endfor %}
+        </div>
+      {% endif %}
 
-	</div>
+      {% include comments.html %}
+    </div>
+  </div>
 </div>
