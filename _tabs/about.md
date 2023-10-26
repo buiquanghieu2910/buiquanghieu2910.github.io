@@ -79,4 +79,4 @@ order: 4
     - Đã tốt nghiệp.
     - GPA: 8.9/10.
     - Xếp loại tốt nghiệp: Giỏi.
-    - Sinh viên đạt thành tích xuất sắc trong khóa học của trường.*
+    - Sinh viên đạt thành tích xuất sắc trong khóa học của trường.
