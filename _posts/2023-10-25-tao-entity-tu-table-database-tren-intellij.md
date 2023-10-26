@@ -12,7 +12,7 @@ image:
 Bài viết chỉ mang tính chất tham khảo
 </p>
 
-# **1. Cài Plugins**
+## Cài Plugins
 
 Tại giao diện màn hình Intellij, chọn File -> Settings
 ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-1.png)
@@ -25,7 +25,7 @@ Quá trình cài đặt hoàn tất, chọn Restart IDE
 
 <br/>
 
-# **2. Cấu hình**
+## Cấu hình
 
 **Lưu ý:** Trong file pom.xml phải có thư viện JPA. Nếu chưa có, click vào đây để lấy thư viện
 ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-4.png)
