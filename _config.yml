@@ -16,7 +16,7 @@ timezone: Asia/Saigon
 
 title: Bui Quang Hieu # the main title
 
-tagline: Backend developer # it will display as the sub-title
+tagline: Backend Developer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
 
@@ -49,7 +49,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-RQ0ZRMZW49 # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
