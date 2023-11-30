@@ -55,3 +55,6 @@ Và đây là thành quả
 ![Image](/assets/img/huong-dan-cai-dat-tieng-viet-cho-woocommerce-tren-wordpress/image-9.png)
 
 **_Chúc các bạn thành công !!!_**
+
+## Video demo
+{% include embed/youtube.html id='ZVH7WB2HqSc' %}
