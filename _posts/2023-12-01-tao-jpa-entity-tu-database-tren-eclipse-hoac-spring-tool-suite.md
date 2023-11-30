@@ -25,13 +25,14 @@ Tìm đến folder g9 -> Chọn Import Database Model
 
 ```yaml
 JDBC Driver: // chọn JDBC tương ứng với database đang dùng
-Hostname: // thông thường sẽ là "localhost", nếu ai dùng db trên server thì điền IP Address Public
-Database: //Tên database
-Username: // Tên user quản trị
-Password: //Mật khẩu tương ứng với user
-// Sau đó bấm Fetch để kết nối
-// Nếu kết nối thành công thì bấm chọn Next (Như hình bên dưới)
+Hostname:    // Thông thường sẽ là "localhost", nếu ai dùng db trên server thì điền IP Address Public
+Database:    // Tên database
+Username:    // Tên user quản trị
+Password:    // Mật khẩu tương ứng với user
 ```
+Sau đó bấm Fetch để kết nối
+<br>
+Nếu kết nối thành công thì bấm chọn Next (Như hình bên dưới)
 
 ![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-4.png)
 
@@ -51,3 +52,4 @@ Cuối cùng chọn Finsh để quá trình generate được diễn ra
 ![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-6.png)
 
 **_Chúc các bạn thành công !!!_**
+````
