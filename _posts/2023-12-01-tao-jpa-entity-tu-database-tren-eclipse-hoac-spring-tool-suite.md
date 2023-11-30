@@ -23,25 +23,27 @@ Click chuột phải vào project cần generate -> Import -> Import( như hình
 Tìm đến folder g9 -> Chọn Import Database Model
 ![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-3.png)
 
-```js
-JDBC Driver: chọn JDBC tương ứng với database đang dùng
-Hostname: thông thường sẽ là "localhost", nếu ai dùng db trên server thì điền IP Address Public
-Database: Tên database
-Username: Tên user quản trị
-Password: Mật khẩu tương ứng với user
-Sau đó bấm Fetch để kết nối
-Nếu kết nối thành công thì bấm chọn Next (Như hình bên dưới)
+```yaml
+JDBC Driver: // chọn JDBC tương ứng với database đang dùng
+Hostname: // thông thường sẽ là "localhost", nếu ai dùng db trên server thì điền IP Address Public
+Database: //Tên database
+Username: // Tên user quản trị
+Password: //Mật khẩu tương ứng với user
+// Sau đó bấm Fetch để kết nối
+// Nếu kết nối thành công thì bấm chọn Next (Như hình bên dưới)
 ```
 
 ![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-4.png)
 
-```js
 Root package: Điền tên package chứa đựng entity
+<br>
 Select all để chọn tất cả các table cần generate hoặc select table cần generate
+<br>
 Lưu ý: Có thể tùy biến Class name bằng cách select bất kỳ dòng nào muốn tùy biến ở cột Class name sau đó chọn Edit
+<br>
 Cuối cùng chọn Finsh để quá trình generate được diễn ra
+<br>
 (Như hình bên dưới)
-```
 
 ![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-5.png)
 
