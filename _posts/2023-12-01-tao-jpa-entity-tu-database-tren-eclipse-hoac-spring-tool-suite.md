@@ -52,4 +52,3 @@ Cuối cùng chọn Finsh để quá trình generate được diễn ra
 ![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-6.png)
 
 **_Chúc các bạn thành công !!!_**
-````
