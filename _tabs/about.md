@@ -9,11 +9,12 @@ order: 4
 
 ## Bùi Quang Hiếu
 
-> Tôi là lập trình viên back-end Java, hiện tại tôi đang làm dự án E-Commerce tại công ty cho khách hàng Nhật Bản
-{: .prompt-tip }
+> Hiện tại tôi đang là Chuyên viên phát triển và vận hành công nghệ tại ngân hàng VIB
+> {: .prompt-tip }
 
 ## Kỹ năng
-- Sử dụng ngôn ngữ lập trình Java/JSP-Servlet, Java/Spring boot, JS/VueJS (cơ bản), AngularJS (cơ bản),  PHP/Laravel (cơ bản).
+
+- Sử dụng ngôn ngữ lập trình Java/JSP-Servlet, Java/Spring boot, JS/VueJS (cơ bản), AngularJS (cơ bản), PHP/Laravel (cơ bản).
 - Sử dụng Docker + Proxy Nginx để chạy dự án gồm nhiều Project con hoặc nhiều Website sử dụng subdomain, SSL sử sụng Certbot.
 - Sử dụng VPS Ubuntu để vận hàng dự án.
 - Sử dụng Github Action xây dựng workflow auto deploy.
@@ -21,15 +22,23 @@ order: 4
   - Khả năng tự học, tự tìm hiểu cao.
   - Nhiệt tình, cởi mở với mọi người dung quanh.
   - Tháo vát, năng động trong công việc.
-- Điểm yếu: 
+- Điểm yếu:
   - Trong công việc hay kỹ tính. Dễ làm đồng nghiệp làm cùng hiểu nhầm là khó tính.
 
 ## Sở thích
+
 - Yêu thích, chế cháo các thứ liên quan đến công nghệ, board mạch điện tử.
 
 ## Kinh nghiệm làm việc
 
-12/2022 -> Hiện nay
+12/2022 -> 06/2024
+: **VIB-NGÂN HÀNG QUỐC TẾ VIB**
+
+    *Chuyên viên phát triển và vận hành*
+
+<br/>
+
+12/2022 -> 06/2024
 : **CÔNG TY CỔ PHẦN PHẦN MỀM LUVINA**
 
     *Lập trình viên*
