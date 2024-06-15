@@ -15,7 +15,8 @@ order: 4
 ## Kỹ năng
 
 - Sử dụng ngôn ngữ lập trình Java/JSP-Servlet, Java/Spring boot, JS/VueJS (cơ bản), AngularJS (cơ bản), PHP/Laravel (cơ bản).
-- Sử dụng Docker + Proxy Nginx để chạy dự án gồm nhiều Project con hoặc nhiều Website sử dụng subdomain, SSL sử sụng Certbot.
+- Sử dụng Docker + Reverse Proxy Nginx để vận hành dự án gồm nhiều project con hoặc nhiều website sử dụng subdomain
+- SSL sử sụng Certbot trên Ubuntu hoặc sử dụng Cloudflare để tạo SSL 2 chiều.
 - Sử dụng VPS Ubuntu để vận hàng dự án.
 - Sử dụng Github Action xây dựng workflow auto deploy.
 - Điểm mạnh:
