@@ -10,7 +10,7 @@ order: 4
 ## Bùi Quang Hiếu
 
 > Hiện tại tôi đang là Chuyên viên phát triển và vận hành công nghệ tại ngân hàng VIB
-> {: .prompt-tip }
+{: .prompt-tip }
 
 ## Kỹ năng
 
@@ -31,7 +31,7 @@ order: 4
 
 ## Kinh nghiệm làm việc
 
-12/2022 -> 06/2024
+06/2024 -> Hiện tại
 : **VIB-NGÂN HÀNG QUỐC TẾ VIB**
 
     *Chuyên viên phát triển và vận hành*
@@ -52,6 +52,7 @@ order: 4
       - Deploy trên Heroku
 
 <br>
+
 09/2022 -> 12/2022
 : **CAO ĐẲNG FPT POLYTECHNIC**
 
@@ -66,6 +67,7 @@ order: 4
       - Deploy sử dụng Docker trên VPS Ubuntu
 
 <br>
+
 07/2022 -> 11/2022
 : **CÔNG TY CỔ PHẦN PHẦN MỀM LUVINA**
 
@@ -73,6 +75,7 @@ order: 4
     - Thực tâp sinh Java, làm project JSP/Servlet
 
 <br>
+
 ## Học vấn
 
 10/2023 -> Hiện nay
