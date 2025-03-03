@@ -2,6 +2,8 @@
 layout: post
 title: Hướng Dẫn Sửa Lỗi KC_HOSTNAME và KC_HOSTNAME_URL trong Keycloak
 date: 2025-03-04 02:28 +0700
+categories: [Keycloak]
+tags: [Keycloak, KC_HOSTNAME, KC_HOSTNAME_URL]
 ---
 # Hướng Dẫn Sửa Lỗi `KC_HOSTNAME` và `KC_HOSTNAME_URL` trong Keycloak
 
