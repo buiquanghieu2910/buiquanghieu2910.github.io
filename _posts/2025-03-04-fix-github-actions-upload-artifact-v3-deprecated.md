@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cách sửa lỗi 'Build failed because it uses a deprecated version of actions/upload-artifact: v3'
+title: Cách sửa lỗi 'Build failed because it uses a deprecated version of actions/upload-artifact:: v3'
 date: 2025-03-04 02:43 +0700
 ---
 # Cách sửa lỗi "Build failed because it uses a deprecated version of `actions/upload-artifact: v3`"
