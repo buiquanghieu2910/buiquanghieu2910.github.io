@@ -8,7 +8,6 @@ image:
   path: /assets/img/introduction-keycloak/Keycloak.png
   width: 800
 ---
-![Image](/assets/img/introduction-keycloak/Keycloak.png)
 ## Keycloak là gì?
 Keycloak là một nền tảng quản lý danh tính và truy cập (Identity and Access Management - IAM) mã nguồn mở, được phát triển bởi Red Hat. Keycloak cung cấp các tính năng xác thực, ủy quyền, và quản lý người dùng mạnh mẽ, giúp các ứng dụng dễ dàng tích hợp cơ chế đăng nhập một lần (Single Sign-On - SSO) mà không cần phải tự xây dựng hệ thống xác thực riêng.
 
