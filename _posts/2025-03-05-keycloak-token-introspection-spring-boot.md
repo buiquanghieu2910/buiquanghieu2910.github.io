@@ -2,7 +2,7 @@
 layout: post
 title: Xử lý Token Introspection trong Spring Boot với Keycloak
 date: 2025-03-05 03:07 +0700
-categories: [Keycloak, Java, Spring Boot]
+categories: [Java, Spring Boot]
 tags:
   [
     Keycloak logout,
