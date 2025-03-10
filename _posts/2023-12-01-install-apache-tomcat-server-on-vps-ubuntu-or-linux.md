@@ -2,7 +2,7 @@
 layout: post
 title: Install Apache Tomcat Server on VPS Ubuntu or Linux
 date: 2023-12-01 00:42 +0700
-categories: [Deploy]
+categories: [DevOps]
 tags: [Apache Tomcat, VPS]
 image:
   path: /assets/img/install-apache-tomcat-server-on-vps-ubuntu-or-linux/background.png

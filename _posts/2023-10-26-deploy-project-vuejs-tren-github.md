@@ -2,8 +2,8 @@
 layout: post
 title: Deploy project Vuejs trên Github
 date: 2023-10-26 18:13 +0700
-categories: [Deploy]
-tags: [Deploy, Deploy VueJs, VueJs, Github page, Deploy VueJs to Github]
+categories: [DevOps]
+tags: [DevOps, Deploy VueJs, VueJs, Github page, Deploy VueJs to Github]
 image:
   path: /assets/img/deploy-vue-to-github/background.jpg
 ---
