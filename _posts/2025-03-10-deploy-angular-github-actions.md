@@ -77,9 +77,9 @@ jobs:
 
 🔹 **Lưu ý**:
 
-- \*\*Thay \*\*`` bằng tên repository của bạn.
+- Thay `your-repo-name` bằng tên repository của bạn.
 - Nếu branch chính không phải `main`, sửa `branches: - main` thành `branches: - tên_branch_của_bạn`.
-- Khi \*\*push code lên branch \*\*``, GitHub Actions sẽ tự động deploy.
+- Khi **push code lên branch chính**, GitHub Actions sẽ tự động deploy.
 
 ---
 
