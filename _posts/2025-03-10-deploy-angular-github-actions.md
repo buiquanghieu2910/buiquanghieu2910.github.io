@@ -2,7 +2,6 @@
 layout: post
 title: Hướng Dẫn Deploy Angular Lên GitHub Pages Bằng GitHub Actions
 date: 2025-03-10 21:40 +0700
-comments: true
 categories: [DevOps]
 tags:
   [
