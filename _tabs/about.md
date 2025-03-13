@@ -4,92 +4,85 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip } -->
-
 ## Bùi Quang Hiếu
 
-> Hiện tại tôi đang là Chuyên viên phát triển và vận hành công nghệ tại ngân hàng VIB
+> **Chuyên viên phát triển và vận hành công nghệ tại Ngân hàng Quốc tế VIB**  
 {: .prompt-tip }
+
+Là một người đam mê công nghệ với tư duy logic và tinh thần học hỏi không ngừng, tôi không chỉ tập trung vào phát triển phần mềm mà còn quan tâm đến việc tối ưu hóa hệ thống, đảm bảo hiệu suất và vận hành ổn định. Với kinh nghiệm làm việc trong các dự án từ E-Commerce đến hệ thống ngân hàng, tôi luôn tìm kiếm cơ hội để nâng cao kỹ năng và đóng góp giá trị thực tế cho doanh nghiệp.
+
+---
 
 ## Kỹ năng
 
-- Sử dụng ngôn ngữ lập trình Java/JSP-Servlet, Java/Spring boot, JS/VueJS (cơ bản), AngularJS (cơ bản), PHP/Laravel (cơ bản).
-- Sử dụng Docker + Reverse Proxy Nginx để vận hành dự án gồm nhiều project con hoặc nhiều website sử dụng subdomain
-- SSL sử sụng Certbot trên Ubuntu hoặc sử dụng Cloudflare để tạo SSL 2 chiều.
-- Sử dụng VPS Ubuntu để vận hàng dự án.
-- Sử dụng Github Action xây dựng workflow auto deploy.
-- Điểm mạnh:
-  - Khả năng tự học, tự tìm hiểu cao.
-  - Nhiệt tình, cởi mở với mọi người dung quanh.
-  - Tháo vát, năng động trong công việc.
-- Điểm yếu:
-  - Trong công việc hay kỹ tính. Dễ làm đồng nghiệp làm cùng hiểu nhầm là khó tính.
+- **Lập trình Backend:** Java/JSP-Servlet, Java/Spring Boot , PHP/Laravel
+- **Lập trình Frontend:** VueJS, AngularJS, Angular
+- **Hệ thống & DevOps:**  
+  - Triển khai hệ thống sử dụng Docker + Reverse Proxy Nginx  
+  - Cấu hình SSL bằng Certbot trên Ubuntu hoặc Cloudflare SSL 2 chiều  
+  - Quản trị và vận hành dự án trên VPS Ubuntu  
+  - Xây dựng workflow auto deploy với GitHub Actions  
+  - Có kinh nghiệm dùng hệ sinh thái AWS (ECS, RDS, CloudWatch, ...)
+- **Điểm mạnh:**  
+  - Khả năng tự học nhanh, luôn chủ động tìm hiểu và giải quyết vấn đề  
+  - Nhiệt tình, cởi mở, sẵn sàng hỗ trợ đồng nghiệp  
+  - Tinh thần trách nhiệm cao, năng động trong công việc  
+- **Điểm yếu:**  
+  - Cầu toàn và có xu hướng kỹ tính, đôi khi gây hiểu lầm là khó tính  
+
+---
 
 ## Sở thích
 
-- Yêu thích, chế cháo các thứ liên quan đến công nghệ, board mạch điện tử.
+- Nghiên cứu và thử nghiệm các công nghệ mới  
+- Lắp ráp, chế tạo các sản phẩm liên quan đến điện tử, công nghệ  
+
+---
 
 ## Kinh nghiệm làm việc
 
-06/2024 -> Hiện tại
-: **VIB-NGÂN HÀNG QUỐC TẾ VIB**
+### **06/2024 -> Hiện tại**  
+#### **Ngân hàng Quốc tế VIB** – *Chuyên viên phát triển và vận hành*  
 
-    *Chuyên viên phát triển và vận hành*
+- Phát triển và vận hành hệ thống công nghệ tiền gửi
+- Tối ưu hóa hiệu suất hệ thống
 
-<br/>
+### **12/2022 -> 06/2024**  
+#### **Công ty Cổ phần Phần mềm Luvina** – *Lập trình viên Java*  
 
-12/2022 -> 06/2024
-: **CÔNG TY CỔ PHẦN PHẦN MỀM LUVINA**
+- Tham gia phát triển dự án E-Commerce cho thị trường Nhật Bản  
+- Công nghệ sử dụng:  
+  - **Backend:** Java Spring Boot, JPA, Hibernate  
+  - **Frontend:** ReactJS  
+  - **Database:** SQL Server  
+  - **Triển khai:** Heroku  
+- Team size: 12 thành viên  
 
-    *Lập trình viên*
-    - Làm dự án E-Commerce outsource của Nhật Bản
-    - Vai trò trong dự án: Dev Java
-    - Team size: 12 thành viên
-    - Công nghệ sử dụng:
-      - BE:  Java Spring boot, JPA, Hibernate
-      - FE: ReactJS
-      - Database:  SQL Server
-      - Deploy trên Heroku
+### **09/2022 -> 12/2022**  
+#### **Cao đẳng FPT Polytechnic** – *Trưởng nhóm dự án tốt nghiệp*  
 
-<br>
+- **Đề tài:** Website bán giày  
+- **Vai trò:** Trưởng nhóm (7 thành viên)  
+- **Công nghệ sử dụng:**  
+  - **Backend:** Java Spring Boot, JPA, Hibernate  
+  - **Frontend:** AngularJS  
+  - **Database:** MySQL, Modeling Product Variants  
+  - **Triển khai:** Docker trên VPS Ubuntu  
 
-09/2022 -> 12/2022
-: **CAO ĐẲNG FPT POLYTECHNIC**
+### **07/2022 -> 11/2022**  
+#### **Công ty Cổ phần Phần mềm Luvina** – *Thực tập sinh Java*  
 
-    *Trưởng nhóm*
-    - Làm dự án tốt nghiệp với đề tài Website bán giày
-    - Vai trò trong dự án: Trưởng nhóm
-    - Team size: 7 thành viên
-    - Công nghệ sử dụng:
-      - BE:  Java Spring boot, JPA, Hibernate
-      - FE: AngularJs
-      - Database:  MySQL, Modeling Product Variants
-      - Deploy sử dụng Docker trên VPS Ubuntu
+- Làm quen với các dự án sử dụng JSP/Servlet  
 
-<br>
+---
 
-07/2022 -> 11/2022
-: **CÔNG TY CỔ PHẦN PHẦN MỀM LUVINA**
+## Học vấn  
 
-    *Thực tập sinh*
-    - Thực tâp sinh Java, làm project JSP/Servlet
+### **10/2023 -> Hiện tại**  
+#### **Đại học Giao thông Vận tải** – *Công nghệ thông tin*  
 
-<br>
+### **09/2020 -> 01/2023**  
+#### **Cao đẳng FPT Polytechnic** – *CNTT - Ứng dụng phần mềm*  
 
-## Học vấn
-
-10/2023 -> Hiện nay
-: **LIÊN THÔNG ĐẠI HỌC GIAO THÔNG VẬN TẢI**
-
-    *Chuyên ngành: Công nghệ thông tin*
-
-<br>
-09/2020 -> 01/2023
-: **CAO ĐẲNG FPT POLYTECHNIC**
-
-    *Chuyên nghành: CNTT - Ứng dụng phần mềm.*
-    - Đã tốt nghiệp.
-    - GPA: 8.9/10.
-    - Xếp loại tốt nghiệp: Giỏi.
-    - Sinh viên đạt thành tích xuất sắc trong khóa học của trường.
+- **GPA:** 8.9/10 | **Xếp loại:** Giỏi  
+- Sinh viên xuất sắc của khóa học  
