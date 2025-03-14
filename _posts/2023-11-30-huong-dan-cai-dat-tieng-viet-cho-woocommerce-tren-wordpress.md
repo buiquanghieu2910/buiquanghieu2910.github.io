@@ -2,7 +2,7 @@
 layout: post
 title: Hướng dẫn cài đặt Tiếng Việt cho Woocommerce trên WordPress
 date: 2023-11-30 00:53 +0700
-categories: [Wordpress]
+categories: [WordPress]
 tags: [WordPress, Woocommerce, Tiếng Việt, Tiếng Việt Woocommerce]
 image:
   path: /assets/img/huong-dan-cai-dat-tieng-viet-cho-woocommerce-tren-wordpress/background.png
