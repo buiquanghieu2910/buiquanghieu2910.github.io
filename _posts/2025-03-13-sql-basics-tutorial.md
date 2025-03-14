@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hướng Dẫn Cơ Bản về SQL
+title: 📌 Hướng Dẫn Cơ Bản về SQL
 date: 2025-03-13 20:53 +0700
 categories: [SQL]
 tags:
@@ -12,8 +12,6 @@ image:
   path: /assets/img/sql-basics-tutorial/sql.png
   width: 800
 ---
-# 📌 Hướng Dẫn Cơ Bản về SQL
-
 ## 🔥 Giới Thiệu
 SQL (Structured Query Language) là ngôn ngữ dùng để quản lý và thao tác cơ sở dữ liệu quan hệ (RDBMS). Dưới đây là các khái niệm và lệnh cơ bản trong SQL.
 

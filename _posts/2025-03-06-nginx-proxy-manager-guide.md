@@ -14,8 +14,6 @@ image:
   path: /assets/img/nginx-proxy-manager-guide/nginxproxymanager.jpg
   width: 800
 ---
-# Hướng Dẫn Cài Đặt & Sử Dụng Nginx Proxy Manager
-
 ## 1. Giới Thiệu
 
 **Nginx Proxy Manager (NPM)** là một công cụ quản lý Nginx với giao diện web trực quan, giúp cấu hình **Reverse Proxy**, **SSL**, **chuyển hướng (Redirect)** và nhiều tính năng khác mà không cần chỉnh sửa file cấu hình Nginx thủ công.

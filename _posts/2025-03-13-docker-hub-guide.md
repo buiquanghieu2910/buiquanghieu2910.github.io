@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hướng Dẫn Sử Dụng Docker Hub
+title: 🐳 Hướng Dẫn Sử Dụng Docker Hub
 date: 2025-03-13 20:44 +0700
 categories: [Docker]
 tags:
@@ -15,8 +15,6 @@ image:
   path: /assets/img/docker-hub-guide/docker-hub.jpg
   width: 800
 ---
-# 🐳 Hướng Dẫn Sử Dụng Docker Hub
-
 ## 🌍 1. Docker Hub là gì?
 Docker Hub là một kho lưu trữ trực tuyến dành cho các image Docker. Nó giúp bạn lưu trữ, chia sẻ và quản lý các image container dễ dàng. 
 

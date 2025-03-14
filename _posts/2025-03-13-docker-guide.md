@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hướng Dẫn Cơ Bản Về Docker
+title: 🐳 Hướng Dẫn Chi Tiết Về Docker
 date: 2025-03-13 20:33 +0700
 categories: [Docker]
 tags:
@@ -18,8 +18,6 @@ image:
   path: /assets/img/docker-guide/docker.png
   width: 800
 ---
-# 🐳 Hướng Dẫn Chi Tiết Về Docker
-
 ## 🔹 1. Docker là gì?
 Docker là một nền tảng **mã nguồn mở** giúp đóng gói, phân phối và chạy ứng dụng trong các **container**. Nó đảm bảo ứng dụng chạy nhất quán trên nhiều môi trường khác nhau, từ máy tính cá nhân đến máy chủ sản xuất.
 

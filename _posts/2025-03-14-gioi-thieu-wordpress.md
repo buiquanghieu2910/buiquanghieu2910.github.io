@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Giới thiệu về WordPress
+title: 🌐 Giới thiệu về WordPress
 date: 2025-03-14 22:51 +0700
 categories: [WordPress]
 tags:
@@ -16,8 +16,6 @@ image:
   path: /assets/img/gioi-thieu-wordpress/logo.png
   width: 800
 ---
-
-# 🌐 Giới thiệu về WordPress
 
 WordPress là một hệ thống quản lý nội dung (**CMS - Content Management System**) phổ biến nhất thế giới, giúp người dùng dễ dàng tạo và quản lý website mà không cần có kiến thức lập trình chuyên sâu. Được phát hành lần đầu vào năm 2003, WordPress đã nhanh chóng trở thành nền tảng hàng đầu cho blog cá nhân, website doanh nghiệp, cửa hàng trực tuyến và nhiều loại trang web khác.
 

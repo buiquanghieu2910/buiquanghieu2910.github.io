@@ -13,8 +13,6 @@ image:
   path: /assets/img/spring-boot-multiple-postgresql-databases/spring-postgres.png
   width: 800
 ---
-# Cấu Hình Spring Boot Kết Nối Hai Database PostgreSQL
-
 Spring Boot hỗ trợ kết nối nhiều database bằng cách cấu hình riêng từng **DataSource**, **EntityManagerFactory** và **TransactionManager**. Bài viết này hướng dẫn cách cấu hình **Spring Boot kết nối 2 database PostgreSQL**.
 
 ---

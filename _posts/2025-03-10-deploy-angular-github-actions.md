@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hướng Dẫn Deploy Angular Lên GitHub Pages Bằng GitHub Actions
+title: 🚀 Hướng Dẫn Deploy Angular Lên GitHub Pages Bằng GitHub Actions
 date: 2025-03-10 21:40 +0700
 categories: [DevOps]
 tags:
@@ -17,8 +17,6 @@ image:
   path: /assets/img/deploy-angular-github-actions/github-actions-angular.png
   width: 800
 ---
-
-# 🚀 Hướng Dẫn Deploy Angular Lên GitHub Pages Bằng GitHub Actions
 
 _Dành cho developer muốn tận dụng GitHub Actions để tự động build và deploy Angular, đồng thời call API từ máy chủ khác một cách tối ưu._
 

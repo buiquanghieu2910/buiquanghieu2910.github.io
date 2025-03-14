@@ -13,9 +13,6 @@ tags:
     Spring Boot OAuth2 opaque token
   ]
 ---
-
-# Xử lý Token Introspection trong Spring Boot với Keycloak
-
 ## 1. Giới thiệu
 
 Trong Spring Boot, khi sử dụng **OAuth2 Resource Server**, bạn có hai cách để kiểm tra token từ Keycloak:

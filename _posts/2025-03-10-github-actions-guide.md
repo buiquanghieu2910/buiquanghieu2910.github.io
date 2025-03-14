@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Giới thiệu Github Actions
+title: 🚀 Giới thiệu GitHub Actions
 date: 2025-03-10 21:33 +0700
 categories: [Github]
 tags: [GitHub Actions, CI/CD, DevOps, Workflow, Automation, GitHub]
@@ -8,8 +8,6 @@ image:
   path: /assets/img/github-actions-guide/github_actions.jpg
   width: 800
 ---
-# 🚀 GitHub Actions
-
 GitHub Actions là một dịch vụ CI/CD (Continuous Integration/Continuous Deployment) giúp tự động hóa các quy trình phát triển phần mềm ngay trong repository của GitHub.
 
 ## 📝 1. Tổng quan
