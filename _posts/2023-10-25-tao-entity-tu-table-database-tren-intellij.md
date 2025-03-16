@@ -1,62 +1,106 @@
 ---
 layout: post
-title: Tạo entity từ table database trên Intellij
+title: 🛠️Tạo entity từ table database trên Intellij
 date: 2023-10-25 22:35 +0700
 categories: [Java, JPA Buddy]
 tags: [Spring JPA, JPA Buddy, Tạo entity từ table database]
 image:
   path: /assets/img/tao-entity-tu-table-database-tren-intellij/background.jpg
 ---
+> ⚠️ **Lưu ý:** Bài viết này chỉ mang tính chất tham khảo!
 
-<p style="color:red; font-weight:bold;">
-Bài viết chỉ mang tính chất tham khảo
-</p>
+---
 
-## Cài Plugins
+## 🚀 Cài đặt Plugin JPA Buddy
 
-Tại giao diện màn hình Intellij, chọn File -> Settings
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-1.png)
+📌 Để tạo Entity từ database một cách nhanh chóng, bạn cần cài đặt **JPA Buddy** trong **IntelliJ IDEA**.
 
-Tiếp theo chọn Plugins -> Marketplace -> Search từ khóa “JPA Buddy” -> Install
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-2.png)
+### 🔹 Các bước cài đặt:
+1️⃣ **Mở IntelliJ IDEA**, vào `File -> Settings`
+   
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-1.png)
 
-Quá trình cài đặt hoàn tất, chọn Restart IDE
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-3.png)
+2️⃣ Chọn `Plugins -> Marketplace` → **Tìm kiếm** `JPA Buddy`
 
-<br/>
+3️⃣ **Nhấn `Install`** để cài đặt.
+   
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-2.png)
 
-## Cấu hình
+4️⃣ Sau khi cài đặt xong, **khởi động lại IntelliJ IDEA**.
+   
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-3.png)
 
-**Lưu ý:** Trong file pom.xml phải có thư viện JPA. Nếu chưa có, click vào đây để lấy thư viện
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-4.png)
+📌 **Bây giờ bạn đã sẵn sàng để kết nối database và tạo Entity!**
 
-Chọn Package muốn tạo Entity -> New -> JPA Entities form DB
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-5.png)
+---
 
-Click “+” để add connection
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-6.png)
+## ⚙️ Cấu hình kết nối Database
 
-Tab “Data Sources” -> Click “+”
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-7.png)
+📌 **Trước khi tạo Entity, hãy kiểm tra file `pom.xml` để đảm bảo đã có thư viện JPA.**
 
-Database ví dụ của mình có 2 bảng là products & users
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-8.png)
+Nếu chưa có, hãy thêm vào hoặc cài đặt theo hướng dẫn:
 
-Quay lại giao diện Intellij, điền đầy đủ thông tin kết nối
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-4.png)
 
-**Lưu ý:** Nếu không có **“Test Connection”** thì nó sẽ thay thế bằng Install Driver, các bạn install xong test connection
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-9.png)
+---
 
-Khi kết nối thành công thì ở phần Tables sẽ hiển thị đầy đủ những table mà trong db đang có
+### 🔹 Các bước kết nối database
 
-**Lưu ý:** Trước khi bấm OK thì phải xem mình đang code ngôn ngữ gì để chọn đúng ngôn ngữ, **Kotlin or Java**
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-10.png)
+1️⃣ **Chọn package nơi bạn muốn tạo Entity**
 
-Và đây là thành quả
+2️⃣ Nhấp chuột phải → `New -> JPA Entities from DB`
 
-**_Nếu các table của các bạn có quan hệ, thì khi gen xuống cũng tự có quan hệ trong các entity_**
-![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-11.png)
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-5.png)
 
-<p align="center" >
- CHÚC CÁC BẠN THÀNH CÔNG !
-</p>
+3️⃣ Nhấn **`+`** để thêm kết nối mới
+
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-6.png)
+
+4️⃣ Trong tab **Data Sources**, nhấn **`+`** để thêm database mới
+
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-7.png)
+
+📌 **Ví dụ:** Ở đây, database của mình có **2 bảng**: `products` & `users`.
+
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-8.png)
+
+---
+
+### 🔹 Cấu hình kết nối Database
+
+📌 **Điền đầy đủ thông tin kết nối database:**
+
+- **Hostname**: `localhost` hoặc địa chỉ server.
+- **Database**: Tên database bạn muốn kết nối.
+- **Username**: Tài khoản đăng nhập database.
+- **Password**: Mật khẩu của database.
+
+📌 **Lưu ý:** Nếu bạn thấy nút **`Install Driver`**, hãy nhấn vào đó để cài đặt driver trước khi **Test Connection**.
+
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-9.png)
+
+5️⃣ Khi kết nối thành công, danh sách **Tables** sẽ hiển thị đầy đủ.
+
+📌 **Trước khi bấm `OK`, hãy kiểm tra ngôn ngữ bạn đang code (Java hoặc Kotlin) và chọn đúng.** ✅
+
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-10.png)
+
+---
+
+## 🎯 Thành quả sau khi tạo Entity
+
+📌 **JPA Buddy sẽ tự động tạo Entity có quan hệ giữa các bảng.** 
+
+   ![Image](/assets/img/tao-entity-tu-table-database-tren-intellij/image-11.png)
+
+✅ Nếu database của bạn có **quan hệ giữa các bảng**, các Entity sẽ tự động có **các annotation @OneToMany, @ManyToOne, @JoinColumn**, v.v.
+
+---
+
+## 🎉 Kết luận
+
+✔️ **JPA Buddy giúp bạn tiết kiệm thời gian** khi tạo **JPA Entity từ database**.  
+✔️ **Tích hợp tốt với IntelliJ IDEA**, dễ dàng kết nối nhiều loại database.  
+✔️ **Hỗ trợ cả Java & Kotlin**, tùy chỉnh Entity theo nhu cầu.  
+
+🚀 **Chúc các bạn thành công!** 🎯
