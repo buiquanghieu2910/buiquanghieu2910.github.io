@@ -19,9 +19,9 @@ image:
 Docker Hub là một kho lưu trữ trực tuyến dành cho các image Docker. Nó giúp bạn lưu trữ, chia sẻ và quản lý các image container dễ dàng. 
 
 🔹 **Tính năng chính của Docker Hub:**
-✅ Lưu trữ image công khai và riêng tư.
-✅ Hỗ trợ CI/CD để tự động build và push image.
-✅ Cho phép cộng đồng đóng góp và sử dụng image có sẵn.
+###### ✅ Lưu trữ image công khai và riêng tư.
+###### ✅ Hỗ trợ CI/CD để tự động build và push image.
+###### ✅ Cho phép cộng đồng đóng góp và sử dụng image có sẵn.
 
 ## 🛠️ 2. Đăng ký và Đăng nhập Docker Hub
 
@@ -67,9 +67,9 @@ docker run -d -p 8080:80 <your-dockerhub-username>/my-app:latest
 
 ## 🗑️ 5. Xóa Image Trên Docker Hub
 Nếu bạn muốn xóa một image khỏi Docker Hub, bạn cần:
-1️⃣ Truy cập [Docker Hub](https://hub.docker.com/).
-2️⃣ Tìm image cần xóa.
-3️⃣ Chọn **Settings > Delete Repository**.
+###### 1️⃣ Truy cập [Docker Hub](https://hub.docker.com/).
+###### 2️⃣ Tìm image cần xóa.
+###### 3️⃣ Chọn **Settings > Delete Repository**.
 
 ## 🎯 6. Kết Luận
 Docker Hub là một công cụ mạnh mẽ giúp lưu trữ và chia sẻ image Docker dễ dàng. Việc push và pull image từ Docker Hub giúp bạn triển khai ứng dụng nhanh chóng và tiện lợi.
