@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Xử lý Token Introspection trong Spring Boot với Keycloak
+title: 🔐Xử lý Token Introspection trong Spring Boot với Keycloak
 date: 2025-03-05 03:07 +0700
 categories: [Java, Spring Boot]
 tags:
@@ -13,18 +13,20 @@ tags:
     Spring Boot OAuth2 opaque token
   ]
 ---
-## 1. Giới thiệu
+## 📌 1. Giới thiệu
 
-Trong Spring Boot, khi sử dụng **OAuth2 Resource Server**, bạn có hai cách để kiểm tra token từ Keycloak:
+Trong **Spring Boot**, khi sử dụng **OAuth2 Resource Server**, bạn có hai cách để kiểm tra token từ **Keycloak**:
 
-1. **Dùng JWT (`jwt.issuer-uri`)** → Token tự kiểm tra bằng chữ ký số, nhanh nhưng không kiểm tra được nếu token bị revoke.
-2. **Dùng Token Introspection (`opaque-token.introspection-uri`)** → Mỗi lần request sẽ gửi token lên Keycloak để kiểm tra tính hợp lệ.
+1️⃣ **Dùng JWT (`jwt.issuer-uri`)** → Token tự kiểm tra bằng chữ ký số, nhanh nhưng **không kiểm tra được nếu token bị revoke**.  
+2️⃣ **Dùng Token Introspection (`opaque-token.introspection-uri`)** → Mỗi lần request sẽ **gửi token lên Keycloak để kiểm tra tính hợp lệ**.
 
-## 2. Cấu hình Resource Server với Token Introspection
+---
 
-Để sử dụng **token introspection**, cần cấu hình Spring Boot gửi token lên Keycloak thay vì tự giải mã JWT.
+## ⚙️ 2. Cấu hình Resource Server với Token Introspection
 
-### **📌 Cấu hình `application.yml`**
+Để sử dụng **Token Introspection**, cần cấu hình **Spring Boot gửi token lên Keycloak** thay vì tự giải mã JWT.
+
+### 📄 **Cấu hình `application.yml`**
 
 ```yaml
 server:
@@ -42,14 +44,16 @@ spring:
           client-secret: change-me
 ```
 
-**🔹 Lưu ý:**
+🔹 **Lưu ý:**
 
-- `introspection-uri`: API kiểm tra token từ Keycloak, lấy từ `.well-known/openid-configuration`.
-- `client-id` & `client-secret`: Thông tin client đăng ký trong Keycloak.
+- 🛠 `introspection-uri`: API kiểm tra token từ Keycloak, lấy từ **`.well-known/openid-configuration`**.
+- 🔑 `client-id` & `client-secret`: Thông tin client đăng ký trong Keycloak.
 
-### **📌 Cấu hình `SecurityConfig.java`**
+---
 
-Nếu bạn dùng Java config thay vì file `.yml`, bạn có thể làm như sau:
+### 📄 **Cấu hình `SecurityConfig.java`**
+
+Nếu bạn dùng **Java config** thay vì file `.yml`, bạn có thể làm như sau:
 
 ```java
 import org.springframework.context.annotation.Bean;
@@ -69,17 +73,24 @@ public class SecurityConfig {
 }
 ```
 
-## 3. So sánh JWT vs Token Introspection
+---
 
-| Cách                                                       | Ưu điểm                                        | Nhược điểm                                 |
-| ---------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------ |
-| **JWT (`jwt.issuer-uri`)**                                 | ✅ Hiệu suất cao vì không gọi Keycloak         | ❌ Không kiểm tra được token bị revoke     |
+## ⚖️ 3. So sánh JWT vs Token Introspection
+
+| ✅ **Cách** | 🚀 **Ưu điểm** | ⚠️ **Nhược điểm** |
+|--------------------------------|----------------------------------|--------------------------------|
+| **JWT (`jwt.issuer-uri`)** | ✅ Hiệu suất cao vì không gọi Keycloak | ❌ Không kiểm tra được token bị revoke |
 | **Token Introspection (`opaque-token.introspection-uri`)** | ✅ Kiểm tra token mỗi lần request, bảo mật hơn | ❌ Hiệu suất thấp hơn do phải gọi Keycloak |
 
-## 4. Kết luận
+---
 
-Nếu bạn cần **hiệu suất cao**, hãy dùng **JWT**. Nếu bạn muốn **kiểm tra token đã bị revoke hay chưa**, hãy dùng **Token Introspection**. 🚀
+## 🎯 4. Kết luận
 
-## 5. Tham khảo
+✔️ Nếu bạn cần **hiệu suất cao**, hãy dùng **JWT**.  
+✔️ Nếu bạn muốn **kiểm tra token đã bị revoke hay chưa**, hãy dùng **Token Introspection**. 🚀
 
-- [Cách cấu hình Spring Boot để xác thực JWT token qua introspection endpoint](https://stackoverflow.com/questions/73266668/how-to-configure-spring-boot-to-validate-jwt-token-with-call-instropection-endpo)
+---
+
+## 🔗 5. Tham khảo
+
+📌 [Cách cấu hình Spring Boot để xác thực JWT token qua introspection endpoint](https://stackoverflow.com/questions/73266668/how-to-configure-spring-boot-to-validate-jwt-token-with-call-instropection-endpo)
