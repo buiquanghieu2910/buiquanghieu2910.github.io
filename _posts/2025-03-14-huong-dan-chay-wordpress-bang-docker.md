@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hướng Dẫn Chạy WordPress Bằng Docker
+title: 🚀 Hướng Dẫn Chạy WordPress Bằng Docker
 date: 2025-03-14 23:18 +0700
 categories: [WordPress]
 tags:
@@ -15,9 +15,6 @@ image:
   path: /assets/img/huong-dan-chay-wordpress-bang-docker/docker_wordpress.jpg
   width: 800
 ---
-
-# 🚀 Hướng Dẫn Chạy WordPress Bằng Docker
-
 ## 📝 Giới thiệu
 
 Docker giúp triển khai WordPress nhanh chóng mà không cần cài đặt thủ công các thành phần như Apache, MySQL. Trong hướng dẫn này, chúng ta sẽ chạy WordPress trên Docker với cấu hình tối ưu.
