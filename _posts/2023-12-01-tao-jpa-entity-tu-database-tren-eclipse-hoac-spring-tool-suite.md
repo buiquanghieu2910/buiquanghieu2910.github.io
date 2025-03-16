@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tạo JPA Entity từ Database trên Eclipse hoặc Spring Tool Suite
+title: 🛠️Tạo JPA Entity từ Database trên Eclipse hoặc Spring Tool Suite
 date: 2023-12-01 00:23 +0700
 categories: [Java, JPA Entity]
 tags: [JPA Entity, Eclipse, Java, G9]
@@ -8,47 +8,71 @@ image:
   path: /assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/background.jpg
   width: 800
 ---
+## 🚀 Cài đặt Extensions
 
-## Cài đặt Extensions
+📌 Để hỗ trợ việc tạo **JPA Entity** từ database một cách nhanh chóng, bạn cần cài đặt **G9 Database Import** trong **Eclipse** hoặc **Spring Tool Suite**.
 
-Trong IDE các bạn vào Help -> Eclipse MarketPlace -> Search từ khóa G9 -> Install g9 Datase Import (như hình bên dưới)
-Đợi quá trình Install diễn ra khoảng 7-10p, sau đó có thông báo Restart IDE
-![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-1.png)
+### 🔹 Các bước cài đặt:
+1️⃣ **Vào menu**: `Help -> Eclipse Marketplace`
+2️⃣ **Tìm kiếm**: Nhập từ khóa **G9** vào ô tìm kiếm.
+3️⃣ **Cài đặt**: Chọn `G9 Database Import` và nhấn **Install**.
+4️⃣ **Chờ đợi**: Quá trình cài đặt diễn ra khoảng **7-10 phút**.
+5️⃣ **Khởi động lại IDE**: Khi cài đặt xong, **Restart IDE** để hoàn tất quá trình cài đặt.
 
-## Cấu hình
+📌 **Sau khi cài đặt xong, bạn có thể tiến hành import database để tạo JPA Entity.**
 
-Click chuột phải vào project cần generate -> Import -> Import( như hình)
-![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-2.png)
+---
 
-Tìm đến folder g9 -> Chọn Import Database Model
-![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-3.png)
+## ⚙️ Cấu hình kết nối Database
+
+### 📌 Các bước thực hiện:
+
+1️⃣ **Click chuột phải** vào project cần generate.
+2️⃣ Chọn `Import` → `Import...`
+3️⃣ Tìm đến thư mục **`G9`** → Chọn **`Import Database Model`**.
+
+📌 **Cấu hình kết nối Database:**
 
 ```yaml
-JDBC Driver: // chọn JDBC tương ứng với database đang dùng
-Hostname:    // Thông thường sẽ là "localhost", nếu ai dùng db trên server thì điền IP Address Public
-Database:    // Tên database
-Username:    // Tên user quản trị
-Password:    // Mật khẩu tương ứng với user
+JDBC Driver:  // Chọn JDBC tương ứng với database đang dùng
+Hostname:     // Thông thường là "localhost", nếu dùng DB trên server thì nhập IP Public
+Database:     // Nhập tên database cần kết nối
+Username:     // Nhập tài khoản quản trị database
+Password:     // Nhập mật khẩu tương ứng với tài khoản
 ```
-Sau đó bấm Fetch để kết nối
-<br>
-Nếu kết nối thành công thì bấm chọn Next (Như hình bên dưới)
 
-![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-4.png)
+4️⃣ **Bấm `Fetch` để kiểm tra kết nối**.
+5️⃣ **Nếu kết nối thành công**, bấm `Next` để tiếp tục.
 
-Root package: Điền tên package chứa đựng entity
-<br>
-Select all để chọn tất cả các table cần generate hoặc select table cần generate
-<br>
-Lưu ý: Có thể tùy biến Class name bằng cách select bất kỳ dòng nào muốn tùy biến ở cột Class name sau đó chọn Edit
-<br>
-Cuối cùng chọn Finsh để quá trình generate được diễn ra
-<br>
-(Như hình bên dưới)
+📌 **Sau khi kết nối thành công, giao diện sẽ hiển thị danh sách bảng trong database.**
 
-![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-5.png)
+---
 
-Đây là kết quả sau khi generate
-![Image](/assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/image-6.png)
+## 📂 Chọn bảng & Tùy chỉnh Entity
 
-**_Chúc các bạn thành công !!!_**
+1️⃣ **Root package**: Nhập tên package chứa các entity.
+2️⃣ **Chọn bảng**: Nhấn **`Select All`** để chọn tất cả các bảng hoặc chọn từng bảng muốn tạo Entity.
+3️⃣ **Tùy chỉnh Class Name**:
+   - Chọn bảng muốn chỉnh sửa ở cột `Class Name`.
+   - Nhấn **`Edit`** để thay đổi tên class tương ứng.
+4️⃣ **Nhấn `Finish`** để bắt đầu quá trình generate Entity từ database.
+
+📌 **Sau khi hoàn tất, JPA Entity sẽ được tạo tự động trong project.** ✅
+
+---
+
+## 🎯 Kết quả
+
+📌 Sau khi **generate thành công**, các entity sẽ xuất hiện trong package đã chọn.
+
+🚀 **Bây giờ bạn có thể sử dụng các entity này để thao tác với database thông qua JPA!**
+
+---
+
+## 🎉 Kết luận
+
+✔️ **G9 Database Import** giúp bạn tiết kiệm thời gian khi tạo **JPA Entity** từ database.  
+✔️ **Hỗ trợ kết nối nhanh chóng** với nhiều loại database khác nhau.  
+✔️ **Tùy chỉnh tên class linh hoạt** trước khi generate.
+
+🚀 **Chúc các bạn thành công!** 🎯
