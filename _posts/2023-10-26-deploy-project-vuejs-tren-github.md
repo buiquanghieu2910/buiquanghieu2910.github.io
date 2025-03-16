@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploy project Vuejs trên Github
+title: 🚀Deploy project Vuejs trên Github
 date: 2023-10-26 18:13 +0700
 categories: [DevOps]
 tags: [DevOps, Deploy VueJs, VueJs, Github page, Deploy VueJs to Github]
@@ -8,93 +8,106 @@ image:
   path: /assets/img/deploy-vue-to-github/background.jpg
 ---
 
-## Giới thiệu Github.IO
+## 🌍 Giới thiệu GitHub Pages
 
-**Github.IO** là nơi chúng ta có thể hosting các project free trực tiếp từ các repository trên github.com. Ở **Github.io** các bạn có thể hosting các trang web như profile cá nhân, landing page, hay các trang giới thiệu sản phẩm/project,…
+**GitHub Pages** là nơi chúng ta có thể **hosting miễn phí** các project trực tiếp từ các repository trên **GitHub**. Với GitHub Pages, bạn có thể dễ dàng **host trang web cá nhân, landing page, hoặc các project Vue.js** của mình chỉ trong vài bước đơn giản.
 
-Hôm nay mình sẽ hướng dẫn các bạn cách **deploy VueJS project lên github.io**, nhờ đó các bạn có thể hosting project VueJS của mình một cách nhanh chóng và hoàn toàn miễn phí.
+Hôm nay, mình sẽ hướng dẫn các bạn cách **deploy Vue.js project lên GitHub Pages**, giúp bạn có thể hosting project Vue.js của mình một cách nhanh chóng và hoàn toàn miễn phí. 🚀
 
-## Tạo project
+---
 
-Đầu tiên các bạn cần phải cài vue-cli nhé. nếu bạn chưa có thì có thể chạy lệnh cmd sau:
+## 🏗 Tạo project Vue.js
 
-```console
-npm install -g @vue/clivue-cli
+Đầu tiên, bạn cần cài đặt **Vue CLI**. Nếu chưa có, hãy chạy lệnh sau:
+
+```sh
+npm install -g @vue/cli
 ```
 
-Sau đó chúng ta sẽ cùng tạo một project mới bằng vue-cli:
+Sau đó, tạo một project Vue.js mới:
 
-```console
+```sh
 vue create deploy_vue_to_github
 ```
 
-## Test project
+---
 
-Sau khi tạo thành công project Vue, các bạn kéo thư mục chứa project vào Visual Code hoặc bất kỳ IDE nào các bạn đang code Vue
+## 🛠 Kiểm tra project Vue.js
 
-Sau đó các bạn mở terminal trên IDE, gõ lệnh:
+Sau khi tạo thành công project Vue.js, bạn kéo thư mục chứa project vào **Visual Studio Code** hoặc IDE mà bạn sử dụng.
 
-```console
+Mở **terminal** trên IDE và chạy lệnh:
+
+```sh
 npm run serve
 ```
 
-Khi run thành công thì được giống ảnh bên dưới
-![Image](/assets/img/deploy-vue-to-github/image-1.png)
+📌 **Khi chạy thành công**, bạn sẽ thấy URL **localhost** xuất hiện. Hãy mở trình duyệt và kiểm tra xem project Vue.js có hoạt động đúng không. ✅
 
-Sau đó các bạn mở URL khi run thành công lên browser
+---
 
-Lúc này URL là localhost, nếu trên trình duyệt chạy ok tức là project bạn không có vấn đề gì :v
-![Image](/assets/img/deploy-vue-to-github/image-2.png)
+## ⚙️ Build project để deploy
 
-## Build project
-
-Quay lại source code, các bạn tắt chương trình đang run và mở file vue.config.js để sửa như sau:
+Sau khi kiểm tra xong, hãy chỉnh sửa file **`vue.config.js`** như sau:
 
 ```js
 module.exports = {
   publicPath:
     process.env.NODE_ENV === "production"
-      ? "/deploy_vue_to_github/" // Thay tên repository của bạn trên muốn deploy
+      ? "/deploy_vue_to_github/" // Thay tên repository của bạn
       : "/",
 };
 ```
 
-Sau khi sửa xong các bạn save file lại và quay lại terminal IDE nhập lệnh build như sau:
+📌 **Lưu ý:** Thay thế **`deploy_vue_to_github`** bằng tên repository của bạn trên GitHub.
 
-```console
+Tiếp theo, quay lại terminal và chạy lệnh build:
+
+```sh
 npm run build
 ```
 
-| ![Image](/assets/img/deploy-vue-to-github/image-3.png) |
-| :----------------------------------------------------: |
-|             _Ảnh minh họa cho 2 bước trên_             |
+🏗 **Sau khi build thành công**, một thư mục **`dist`** sẽ xuất hiện chứa các file HTML, CSS và JS cần deploy.
 
-Quá trình build diễn ra trong 1 vài phút tùy vào project to hay nhỏ. Sau khi build thành công thì trong project Vue của bạn xuất hiện thư mục dist, trong thư mục dist chứa các file html/css và js. Nếu bạn nào không có thì có thể thực hiện lại bước build.
+---
 
-Sau khi buil thành công, ở terminal các bạn nhập lần lượt các lệnh sau:
+## 🔄 Deploy lên GitHub Pages
 
-```js
+Mở terminal và chạy lần lượt các lệnh sau để đẩy project lên GitHub:
+
+```sh
 cd dist
+
 git init
 git add -A
 git commit -m "deploy_vue_to_github"
-git push -f https://github.com/<tên user github>/<tên repo>.git master:gh-pages
+git push -f https://github.com/<tên-user-github>/<tên-repo>.git master:gh-pages
 ```
 
-![Image](/assets/img/deploy-vue-to-github/image-4.png)
+📌 **Lưu ý:** Thay **`<tên-user-github>`** và **`<tên-repo>`** bằng thông tin repository của bạn.
 
-Sau khi push thành công lên github, các bạn quay lại repository của các bạn trên github. Vào tab Actions để xem quá trình deploy, tất cả các bước có màu xanh lá cây tức là deloy thành công.
+🚀 **Sau khi push thành công**, vào GitHub và kiểm tra tab **Actions** để đảm bảo quá trình deploy thành công.
 
-![Image](/assets/img/deploy-vue-to-github/image-5.png)
+---
 
-Cuối cùng là mở trình duyệt tại địa chỉ:
+## 🔗 Truy cập trang web đã deploy
+
+Cuối cùng, mở trình duyệt và nhập đường dẫn:
 
 ```
-https://<tên user github>.github.io/<tên repo>/
+https://<tên-user-github>.github.io/<tên-repo>/
 ```
 
-(ví dụ như của [tại đây](https://buiquanghieu2910.github.io/deploy_vue_to_github){:target="\_blank"}). Và cuối cùng là xem kết quả
+Ví dụ: [Xem demo tại đây](https://buiquanghieu2910.github.io/deploy_vue_to_github) 🌐
 
-| ![Image](/assets/img/deploy-vue-to-github/image-6.png) |
-| :----------------------------------------------------: |
-|           **_Chúc các bạn thành công !!!_**            |
+---
+
+## 🎉 Kết luận
+
+🔥 **Chúc mừng!** Bạn đã hoàn thành việc deploy Vue.js project lên GitHub Pages thành công! 🚀🎯
+
+💡 **Tips:**
+- **Cập nhật code**: Mỗi khi bạn thay đổi code, chỉ cần chạy lại `npm run build` và **push lại lên branch `gh-pages`**.
+- **Kiểm tra lỗi**: Nếu có lỗi khi deploy, kiểm tra tab **Actions** trên GitHub để xem log chi tiết.
+
+🛠 **Chúc các bạn thành công!** 🎯
