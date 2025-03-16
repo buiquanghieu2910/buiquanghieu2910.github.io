@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cấu Hình Spring Boot Kết Nối Hai Database PostgreSQL
+title: 🔧Cấu Hình Spring Boot Kết Nối Hai Database PostgreSQL
 date: 2025-03-07 02:29 +0700
 categories: [Java, Spring Boot]
 tags:
@@ -13,11 +13,7 @@ image:
   path: /assets/img/spring-boot-multiple-postgresql-databases/spring-postgres.png
   width: 800
 ---
-Spring Boot hỗ trợ kết nối nhiều database bằng cách cấu hình riêng từng **DataSource**, **EntityManagerFactory** và **TransactionManager**. Bài viết này hướng dẫn cách cấu hình **Spring Boot kết nối 2 database PostgreSQL**.
-
----
-
-## 1. Cấu hình `application.yml`
+## 📌 1. Cấu hình `application.yml`
 
 Thêm thông tin kết nối cho **2 database** vào `application.yml`:
 
@@ -44,9 +40,9 @@ spring:
 
 ---
 
-## 2. Cấu hình Primary Database
+## 🏗 2. Cấu hình Primary Database
 
-Tạo file `PrimaryDatabaseConfig.java`:
+📌 **Tạo file `PrimaryDatabaseConfig.java`**:
 
 ```java
 @Configuration
@@ -87,9 +83,9 @@ public class PrimaryDatabaseConfig {
 
 ---
 
-## 3. Cấu hình Secondary Database
+## 🏗 3. Cấu hình Secondary Database
 
-Tạo file `SecondaryDatabaseConfig.java`:
+📌 **Tạo file `SecondaryDatabaseConfig.java`**:
 
 ```java
 @Configuration
@@ -127,9 +123,9 @@ public class SecondaryDatabaseConfig {
 
 ---
 
-## 4. Tạo Entity & Repository cho từng database
+## 📂 4. Tạo Entity & Repository cho từng database
 
-### **Primary Database**
+### 🏛 **Primary Database**
 
 #### **Entity:**
 ```java
@@ -150,7 +146,7 @@ public interface PrimaryUserRepository extends JpaRepository<PrimaryUser, Long> 
 }
 ```
 
-### **Secondary Database**
+### 🏛 **Secondary Database**
 
 #### **Entity:**
 ```java
@@ -173,7 +169,7 @@ public interface SecondaryUserRepository extends JpaRepository<SecondaryUser, Lo
 
 ---
 
-## 5. Sử dụng Service để thao tác với 2 database
+## ⚙️ 5. Sử dụng Service để thao tác với 2 database
 
 ```java
 @Service
@@ -201,10 +197,10 @@ public class UserService {
 
 ---
 
-## 6. Kết luận
+## 📌 6. Kết luận
 
-| **Bước** | **Hành động** |
-|----------|--------------|
+| ✅ **Bước** | 🎯 **Hành động** |
+|------------|-----------------|
 | **1** | Cấu hình **2 DataSource** trong `application.yml` |
 | **2** | Tạo `PrimaryDatabaseConfig` để cấu hình database chính |
 | **3** | Tạo `SecondaryDatabaseConfig` để cấu hình database phụ |
@@ -212,4 +208,3 @@ public class UserService {
 | **5** | Sử dụng `@Transactional` để thao tác đúng database |
 
 🚀 **Sau khi hoàn thành, Spring Boot sẽ kết nối & thao tác được với cả 2 database PostgreSQL!**
-
