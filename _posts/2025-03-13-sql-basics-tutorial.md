@@ -107,6 +107,64 @@ SELECT * FROM users ORDER BY created_at DESC;
 
 ---
 
+## 3️⃣ Ví Dụ Chi Tiết về `ORDER BY`, `GROUP BY`, `HAVING`
+
+### 🔹 **Sắp xếp dữ liệu với `ORDER BY`**
+Sắp xếp danh sách người dùng theo **ngày tạo giảm dần**:
+```sql
+SELECT * FROM users ORDER BY created_at DESC;
+```
+Sắp xếp đơn hàng theo **tổng giá trị tăng dần**, nếu bằng nhau thì theo **ngày tạo giảm dần**:
+```sql
+SELECT * FROM orders ORDER BY total_price ASC, created_at DESC;
+```
+
+### 🔹 **Nhóm dữ liệu với `GROUP BY`**
+Lấy tổng doanh thu theo từng khách hàng (`user_id`):
+```sql
+SELECT user_id, SUM(total_price) AS total_revenue
+FROM orders
+GROUP BY user_id;
+```
+Đếm số lượng đơn hàng của từng khách hàng:
+```sql
+SELECT user_id, COUNT(*) AS total_orders
+FROM orders
+GROUP BY user_id;
+```
+
+### 🔹 **Lọc dữ liệu nhóm với `HAVING`**
+Lọc danh sách khách hàng có tổng doanh thu **trên 10 triệu**:
+```sql
+SELECT user_id, SUM(total_price) AS total_revenue
+FROM orders
+GROUP BY user_id
+HAVING total_revenue > 10000000;
+```
+Lọc danh sách khách hàng có **hơn 5 đơn hàng**:
+```sql
+SELECT user_id, COUNT(*) AS total_orders
+FROM orders
+GROUP BY user_id
+HAVING total_orders > 5;
+```
+
+### 🔹 **Tổng hợp cả 3 (`ORDER BY`, `GROUP BY`, `HAVING`)**
+Lấy danh sách khách hàng có tổng doanh thu trên **10 triệu**, sắp xếp theo tổng doanh thu giảm dần:
+```sql
+SELECT user_id, SUM(total_price) AS total_revenue
+FROM orders
+GROUP BY user_id
+HAVING total_revenue > 10000000
+ORDER BY total_revenue DESC;
+```
+
+💡 **Ghi nhớ:**  
+- `GROUP BY` dùng để nhóm dữ liệu.  
+- `HAVING` dùng để lọc nhóm sau khi nhóm (`WHERE` chỉ lọc trước khi nhóm).  
+- `ORDER BY` dùng để sắp xếp kết quả cuối cùng.
+
+---
+
 ## 📌 Tổng Kết
 SQL là một ngôn ngữ mạnh mẽ giúp bạn quản lý dữ liệu hiệu quả. Hãy thực hành thường xuyên để nắm vững các lệnh cơ bản này! 🚀
-
