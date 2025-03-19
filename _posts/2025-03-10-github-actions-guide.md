@@ -2,7 +2,7 @@
 layout: post
 title: 🚀 Giới thiệu GitHub Actions
 date: 2025-03-10 21:33 +0700
-categories: [Github]
+categories: [Git, Github]
 tags: [GitHub Actions, CI/CD, DevOps, Workflow, Automation, GitHub]
 image:
   path: /assets/img/github-actions-guide/github_actions.jpg
