@@ -52,6 +52,7 @@ Triển khai liên tục (CD) mở rộng từ CI, khi mã nguồn sau khi kiể
 - Có thể gặp khó khăn khi tích hợp vào các hệ thống cũ.
 
 # CI/CD khác gì DevOps? 🤔
+
 | **Tiêu chí**         | **CI/CD**  | **DevOps**  |
 |----------------------|------------|-------------|
 | **Mục tiêu**        | Tự động hóa tích hợp, kiểm thử và triển khai phần mềm. | Xây dựng quy trình hợp tác giữa phát triển và vận hành phần mềm. |
