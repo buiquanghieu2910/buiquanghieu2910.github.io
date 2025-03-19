@@ -4,6 +4,9 @@ title: 🚀 CI/CD là gì? Lợi ích của CI/CD trong quy trình phát triển
 date: 2025-03-19 13:00 +0700
 categories: [DevOps]
 tags: [CI/CD, DevOps, Phát triển phần mềm, Tự động hóa]
+image:
+  path: /assets/img/ci-cd-la-gi/cicd.png
+  width: 800
 ---
 
 # CI/CD là gì? 🚀
