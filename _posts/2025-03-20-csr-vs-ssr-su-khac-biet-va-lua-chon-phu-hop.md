@@ -13,7 +13,7 @@ tags:
     Ưu nhược điểm của SSR
   ]
 image:
-  path: /assets/img/client-side-rendering-vs-server-side-rendering/csr-vs-ssr.jpg
+  path: /assets/img/client-side-rendering-vs-server-side-rendering/csr-vs-ssr.png
 ---
 
 ## 🖥️ 1. CSR (Client-Side Rendering) là gì?
