@@ -2,7 +2,7 @@
 layout: post
 title: 🛠️Tạo JPA Entity từ Database trên Eclipse hoặc Spring Tool Suite
 date: 2023-12-01 00:23 +0700
-categories: [Java, JPA Entity]
+categories: [Java]
 tags: [JPA Entity, Eclipse, Java, G9]
 image:
   path: /assets/img/tao-jpa-entity-tu-database-tren-eclipse-hoac-spring-tool-suite/background.jpg

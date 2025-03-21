@@ -2,7 +2,7 @@
 layout: post
 title: 🛠️Tạo entity từ table database trên Intellij
 date: 2023-10-25 22:35 +0700
-categories: [Java, JPA Buddy]
+categories: [Java]
 tags: [Spring JPA, JPA Buddy, Tạo entity từ table database]
 image:
   path: /assets/img/tao-entity-tu-table-database-tren-intellij/background.jpg
