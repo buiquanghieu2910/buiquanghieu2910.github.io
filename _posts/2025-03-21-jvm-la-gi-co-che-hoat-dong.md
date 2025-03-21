@@ -2,7 +2,7 @@
 layout: post
 title: 🔥 Giới thiệu về JVM – Java Virtual Machine
 date: 2025-03-21 18:48 +0700
-categories: [Java]
+categories: [Programming Language, Java]
 tags:
   [
     JVM là gì,
