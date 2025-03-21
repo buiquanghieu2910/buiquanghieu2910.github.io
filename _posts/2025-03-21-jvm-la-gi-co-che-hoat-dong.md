@@ -72,6 +72,7 @@ JVM quản lý bộ nhớ theo 5 vùng chính:
 ---
 
 ## 📌 JVM khác JDK và JRE như thế nào?
+
 | Thành phần | Mô tả |
 |------------|------|
 | **JDK (Java Development Kit)** | Bao gồm: JRE + Compiler + Debugger (dành cho lập trình viên) |
