@@ -2,6 +2,7 @@
 layout: post
 title: 🔌 WebSocket là gì? Ứng dụng và khi nào nên sử dụng
 date: 2025-03-21 21:27 +0700
+categories: [Technology]
 tags:
   [
     WebSocket là gì,
