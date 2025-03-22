@@ -12,7 +12,7 @@ tags:
     Hướng dẫn cài Tomcat,
   ]
 image:
-  path: /assets/img/tomcat-la-gi-va-cau-hinh-co-ban/tomcat.jpg
+  path: /assets/img/tomcat-la-gi-va-cau-hinh-co-ban/tomcat.png
 ---
 
 ## 🎯 Giới thiệu Tomcat
