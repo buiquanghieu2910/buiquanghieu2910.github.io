@@ -2,7 +2,7 @@
 layout: post
 title: 🔐 Transaction trong cơ sở dữ liệu – Hiểu và ứng dụng trong backend
 date: 2025-03-22 13:21 +0700
-categories: [Database]
+categories: [Database & Data Engineering]
 tags:
   [
     Transaction là gì,

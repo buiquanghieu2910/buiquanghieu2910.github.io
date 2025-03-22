@@ -2,9 +2,10 @@
 layout: post
 title: 📌 Hướng Dẫn Cơ Bản về SQL
 date: 2025-03-13 20:53 +0700
-categories: [SQL]
+categories: [Database & Data Engineering]
 tags:
   [
+    SQL,
     SQL Basic,
     Database
   ]
