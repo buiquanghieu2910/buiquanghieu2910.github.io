@@ -2,6 +2,7 @@
 layout: post
 title: 🧭 Mô Hình MVVM (Model - View - ViewModel)
 date: 2025-03-23 17:14 +0700
+categories: [Design Pattern]
 tags:
   [
     mô hình MVVM,
