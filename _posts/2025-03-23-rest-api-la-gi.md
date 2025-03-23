@@ -2,7 +2,7 @@
 layout: post
 title: 🌐 REST API là gì? Tìm hiểu chuẩn thiết kế phổ biến nhất hiện nay
 date: 2025-03-23 21:42 +0700
-categories: [Technology]
+categories: [API]
 tags:
   [
     rest api là gì, 

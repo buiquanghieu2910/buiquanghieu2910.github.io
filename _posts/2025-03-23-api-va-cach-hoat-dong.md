@@ -2,7 +2,7 @@
 layout: post
 title: 🌐 API là gì? Tất tần tật về Giao diện lập trình ứng dụng
 date: 2025-03-23 21:35 +0700
-categories: [Technology]
+categories: [API]
 tags:
   [
     API là gì, 
