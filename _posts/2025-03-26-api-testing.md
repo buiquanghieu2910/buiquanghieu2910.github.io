@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 🚀 PI Testing – Kiểm thử API hiệu quả cho các ứng dụng hiện đại
+title: 🚀 API Testing – Kiểm thử API hiệu quả cho các ứng dụng hiện đại
 date: 2025-03-26 01:32 +0700
 categories: [API]
 tags:
