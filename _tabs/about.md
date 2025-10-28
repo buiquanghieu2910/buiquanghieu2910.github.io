@@ -78,11 +78,13 @@ Là một người đam mê công nghệ với tư duy logic và tinh thần h�
 
 ## Học vấn  
 
-### **10/2023 -> Hiện tại**  
+### **10/2023 -> 07/2025**  
 #### **Đại học Giao thông Vận tải** – *Công nghệ thông tin*  
+
+- **GPA:** 3.0/4.0 | **Xếp loại:** Khá  
 
 ### **09/2020 -> 01/2023**  
 #### **Cao đẳng FPT Polytechnic** – *CNTT - Ứng dụng phần mềm*  
 
-- **GPA:** 8.9/10 | **Xếp loại:** Giỏi  
+- **GPA:** 8.9/10.0 | **Xếp loại:** Giỏi  
 - Sinh viên xuất sắc của khóa học  
