@@ -1,0 +1,37 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1F3A"/>
+      <stop offset="1" stop-color="#0F4C81"/>
+    </linearGradient>
+    <linearGradient id="card" x1="220" y1="120" x2="980" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="110" r="180" fill="#38BDF8" fill-opacity="0.12"/>
+  <circle cx="170" cy="520" r="220" fill="#60A5FA" fill-opacity="0.10"/>
+
+  <rect x="220" y="120" width="760" height="390" rx="24" fill="url(#card)" stroke="#93C5FD" stroke-opacity="0.45" stroke-width="2"/>
+
+  <rect x="260" y="180" width="200" height="120" rx="14" fill="#0B1F3A" fill-opacity="0.52"/>
+  <rect x="500" y="180" width="200" height="120" rx="14" fill="#0B1F3A" fill-opacity="0.52"/>
+  <rect x="740" y="180" width="200" height="120" rx="14" fill="#0B1F3A" fill-opacity="0.52"/>
+
+  <rect x="290" y="230" width="140" height="8" rx="4" fill="#7DD3FC"/>
+  <rect x="530" y="230" width="140" height="8" rx="4" fill="#7DD3FC"/>
+  <rect x="770" y="230" width="140" height="8" rx="4" fill="#7DD3FC"/>
+
+  <rect x="260" y="340" width="680" height="120" rx="16" fill="#0B1F3A" fill-opacity="0.45"/>
+  <rect x="290" y="372" width="620" height="12" rx="6" fill="#93C5FD"/>
+  <rect x="290" y="400" width="420" height="10" rx="5" fill="#BFDBFE"/>
+
+  <text x="600" y="85" text-anchor="middle" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">
+    PORTAINER OPEN SOURCE
+  </text>
+  <text x="600" y="560" text-anchor="middle" fill="#D1E6FF" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="600">
+    Docker • Swarm • Kubernetes
+  </text>
+</svg>
