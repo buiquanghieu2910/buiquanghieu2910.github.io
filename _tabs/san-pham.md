@@ -32,11 +32,12 @@ Trang này tự động gom các bài viết sản phẩm từ `_posts`.
 {% for post in product_posts %}
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
-- Ngày đăng: `{{ post.date | date: "%d-%m-%Y" }}`
-- Danh mục: `{{ post.categories | join: ", " }}`
-- Tags: `{{ post.tags | join: ", " }}`
-
 {{ post.excerpt | strip_html | truncate: 220 }}
+
+- Ngày đăng: `{{ post.date | date: "%d-%m-%Y" }}`
+<!-- - Danh mục: `{{ post.categories | join: ", " }}` -->
+<!-- - Tags: `{{ post.tags | join: ", " }}` -->
+
 
 {% endfor %}
 {% else %}
